@@ -1,0 +1,13 @@
+environment: default
+spring:
+  config:
+    activate:
+      on-profile: def
+name: def-YAML
+server:
+  port: 4500
+  myCustomVarTree:
+    authCode: xyz458
+    devName: Mario
+  welcomeMsg: Hello
+enabled: true
